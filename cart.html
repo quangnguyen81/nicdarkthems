@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,700;1,500;1,600&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.14.0/css/all.min.css">
+    <title>Cart</title>
+</head>
+<body>
+    <div class="header hide-on-tb-mb">
+        <div class="nav">
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a href="" class="item-link">
+                        <img class="item-link__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/world-white.svg" alt="world-white">
+                        LANGUAGES
+                    </a>
+                </li>
+                <li class="nav-list__item"><a href="" class="item-link">EN</a></li>
+                <li class="nav-list__item"><a href="" class="item-link">ES</a></li>
+                <li class="nav-list__item">
+                    <a href="" class="item-link">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/share-white.svg" alt="OUR SOCIAL" class="item-link__img">
+                        OUR SOCIAL
+                    </a>
+                </li>
+            </ul>
+            <ul class="nav-list">
+                <li class="nav-list__item">
+                    <a href="" class="item-link">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/star-white.svg" alt="Star" class="item-link__img">
+                        TOUR PACKAGES
+                    </a>
+                </li>
+                <li class="nav-list__item">
+                    <a href="" class="item-link">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/plugins/nd-shortcodes/addons/customizer/shortcodes/top-header/img/pin-white.svg" alt="Pin" class="item-link__img">
+                        CONTACT US
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="header-tablet">
+        <img class="header-tablet__logo" src="./assets/img/logo-white.png" alt="Logo">
+        <div class="header-tablet__menu">
+            <i class="fas fa-bars menu-icon"></i>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="content-travel content-cart">
+            <div class="over-lay"></div>
+            <div class="travel-heading">
+                <img src="./assets/img/logo-white.png" alt="Logo" class="travel-heading__logo hide-on-tb-mb">
+                <div class="travel-desc-menu hide-on-tb-mb">
+                    <i class="fas fa-bars travel-heading__menu"></i>
+                </div>
+            </div>
+            <div class="wooden-ship">
+                <h2 class="wooden-ship__heading">Cart</h2>
+            </div>
+        </div>
+        <div class="cart-body">
+                <div class="grid wide">
+                    <div class="table-cart-wrapper">
+                        <table class="table-shop">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <a href="" class="remove remove-responsive">x</a>
+                                        &nbsp;
+                                    </th>
+                                    <th class="hide-th">&nbsp;</th>
+                                    <th class="th-responsive">
+                                        <span class="span-responsive">Product</span>
+                                        <a href="" class="product-responsive">Haiwaii Coast</a>
+                                    </th>
+                                    <th class="th-responsive">
+                                        <span class="span-responsive">Price</span>
+                                        <span class="product-responsive"><span>$</span>800.00</span>
+                                    </th>
+                                    <th class="th-responsive">
+                                        <span class="span-responsive">Quantity</span>
+                                        <input class="input-responsive" type="number" step="1" min="0" value="1"> 
+                                    </th>
+                                    <th class="th-responsive">
+                                        <span class="span-responsive">Total</span>
+                                        <span class="product-responsive"><span>$</span>800.00</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="shop-item">
+                                    <td class="shop-item__product">
+                                        <a href="" class="remove">x</a>
+                                    </td>
+                                    <td class="shop-item__img">
+                                        <a href="">
+                                            <img class="" src="./assets/img/page5/shop-7-300x300.jpg" alt="Shop">
+                                        </a>
+                                    </td>
+                                    <td class="shop-item__name">
+                                        <a href="">Haiwaii Coast</a>
+                                    </td>
+                                    <td class="shop-item__quantity">
+                                        <span style="font-size: 14px;"><span>$</span>800.00</span>
+                                    </td>
+                                    <td class="shop-item__subtotal">
+                                        <div class="quantity coast-item__input">
+                                            <input type="number" step="1" min="0" value="1"> 
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span style="font-size: 14px;"><span>$</span>800.00</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="shop-coupon" colspan="6">
+                                        <div class="coupon coupon-responsive">
+                                            <div class="coupon__input coupon-responsive__input">
+                                                    <input type="text" name="coupon_code" class="coupon__text coupon-responsive__text" id="coupon_code" value="" placeholder="Coupon code">
+                                                    <input type="submit" class="coupon__submit coupon-responsive__submit" name="apply_coupon" value="Apply coupon">
+                                            </div>
+                                            <div class="coupon__btn coupon-responsive__btn">
+                                                <button type="submit" class="button button-responsive" name="update_cart" value="Update cart">Update cart</button>
+                                            </div>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="cart-total">
+                            <h2 class="cart-total__heading">Cart totals</h2>
+                            <table class="total">
+                                <tbody>
+                                    <tr class="total__subtotal">
+                                        <th class="total__text">
+                                            <span class="total__span-responsive span-responsive">Subtotal</span>
+                                            <span class="total__number-responsive">$1,000.00</span>
+                                        </th>
+                                        <td class="total__number total__number-tl-mb">
+                                            <span>$1,000.00</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="total__primary">
+                                        <th class="total__text total__text-responsive">
+                                            <span class="total__span-responsive span-responsive">Total</span>
+                                            <span class="total__number-responsive">$1,000.00</span>
+                                        </th>
+                                        <td class="total__number total__number-tl-mb">
+                                            <span>$1,000.00</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <a href="" class="cart-total__link cart-total__link-responsive">
+                                Proceed to checkout
+                            </a>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer__box">
+            <div class="grid wide">
+                <div class="row row-margin-0">
+                    <div class="col l-6 m-12 c-12 col-padding-0">
+                        <div class="box-item">
+                            <img class="box-item__img" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/tour-packages/wp-content/uploads/sites/6/2018/12/logo-color-2.png" alt="Travel">
+                            <p class="box-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                                Curabitur ut diam et nibh <u>condimentum</u> venenatis eu ac magnasin. 
+                                Quisque interdum est mauris, eget ullamcorper.
+                            </p>
+                            <ul class="box-item__list">
+                                <li class="box-item__list-item">
+                                    <a href="" class="box-icon">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="box-item__list-item">
+                                    <a href="" class="box-icon">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                                <li class="box-item__list-item">
+                                    <a href="" class="box-icon">
+                                        <i class="fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li class="box-item__list-item">
+                                    <a href="" class="box-icon">
+                                        <i class="fab fa-vimeo-v"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col l-6 m-12 c-12 col-padding-0">
+                        <div class="box-menu">
+                            <div class="row">
+                                <div class="col l-4 m-12 c-12">
+                                    <div class="box-menu-item">
+                                        <h6 class="box-menu-item__title">OUR AGENCY</h6>
+                                        <ul class="box-menu-item__list">
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Services
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Insurancee
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Agency
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Tourism
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right  fas fa-chevron-right"></i>
+                                                Payment
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-12 c-12">
+                                    <div class="box-menu-item">
+                                        <h6 class="box-menu-item__title">PARTNERS</h6>
+                                        <ul class="box-menu-item__list">
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Booking
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                RentalCar
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                HostelWorld
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Trivago
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right  fas fa-chevron-right"></i>
+                                                TripAdvisor
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col l-4 m-12 c-12">
+                                    <div class="box-menu-item">
+                                        <h6 class="box-menu-item__title">LAST MINUTE</h6>
+                                        <ul class="box-menu-item__list">
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                London
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                California
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Indonesia
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right fas fa-chevron-right"></i>
+                                                Europe
+                                            </li>
+                                            <li class="box-menu-item__list-item">
+                                                <i class="box-menu-icon-right  fas fa-chevron-right"></i>
+                                                Oceania
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <div class="grid wide">
+                <div class="row row-margin-0">
+                    <div class="col l-6 m-12 c-12 col-padding-0">
+                        <p class="footer-copyright-text">THE BEST WORDPRESS TRAVEL THEME</p>
+                    </div>
+                    <div class="col l-6 m-12 c-12 col-padding-0">
+                        <p class="footer-copyright-text footer-copyright-text-left">COPYRIGHT NICDARK THEMES 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="short-cut hide-on-tb-mb">
+        <div class="short-cut__price">
+            <span class="short-cut__price-buy-now">BUY NOW</span>
+            <a class="short-cut__price-number" href="">54</a> <span class="short-cut__price-dola">$</span>
+            <div class="short-cut-envato">
+                <img class="envato-img" src="./assets/img/envato.png" alt="Envato">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

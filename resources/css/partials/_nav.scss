@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+
+    &-list{
+        list-style: none;
+        padding: 6px 50px;
+
+        &__item{
+            text-decoration: none;
+            display: inline-block;
+
+            & .item-link {
+                text-decoration: none;
+                color: #fff;
+                font-size: 14px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                margin-right: 20px;
+
+                &__img{
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 8px;
+                }
+            }
+        }
+    }
+
+    &-list:last-child {
+        margin-right: 0;
+    }
+}

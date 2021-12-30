@@ -1,0 +1,95 @@
+.row-margin-7 {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+
+.mt-16 {
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.content-shop {
+    margin-top: 62px;
+    margin-bottom: 124px;
+}
+    
+.item {
+    
+    &__img {
+        position: relative;
+        img {
+            width: 100%;
+            display: block;
+        }
+        &--mt {
+            margin-top: 42px;
+        }
+    }
+
+    &__sale {
+        position: absolute;
+        top: 5%;
+        right: 6%;
+        color: #fff;
+        background-color: #1bbc9b;
+        padding: 5px 8px;
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+
+    &__place {
+        text-decoration: none;
+        display: inline-block;
+
+        h2 {
+            font-weight: normal;
+            color: var(--color-title);
+            font-size: 20px;
+            line-height: 20px;
+            padding-top: 20px;
+        }
+    }
+
+    &__rating {
+        display: block;
+        text-decoration: none;
+        margin-top: -3px;
+    }
+
+    &__star {
+        font-size: 8px;
+        color: var(--text-color);
+        transform: scale(1.5);
+    }
+
+    &__price {
+        cursor: pointer;
+        font-size: 16px;
+        color: var(--text-color);
+        letter-spacing: 1px;
+        margin-top: 12px;
+        display: block;
+
+        .price-sale {
+            opacity: 0.6;
+            text-decoration: line-through;
+        }
+
+        .price-underline {
+            text-decoration: underline;
+        }
+    }
+
+    &__btn {
+        font-size: 13px;
+        text-decoration: none;
+        color: var(--text-color);
+        letter-spacing: 1px;
+        padding: 4px 12px;
+        border: 1px solid #f1f1f1;
+        margin-top: 20px;
+        display: inline-block;
+    }
+}
+
+

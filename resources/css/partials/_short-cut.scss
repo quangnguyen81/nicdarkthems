@@ -1,0 +1,64 @@
+.short-cut {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+    z-index: 100;
+
+    &__price {
+        position: relative;
+        width: 65px;
+        height: 65px;
+        background-color: var(--color-title);
+        border-radius: 100%;
+        display: flex;
+
+        &-number {
+            margin: auto;
+            font-size: 25px;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+
+        &-dola {
+            position: absolute;
+            font-size: 8px;
+            color: #fff;
+            font-weight: 500;
+            top: 19px;
+            left: 13px;
+
+        }
+
+        &-buy-now {
+            position: absolute;
+            font-size: 8px;
+            font-weight: 400;
+            color: #fff;
+            background-color: var(--secondary-color);
+            padding: 3px 5px;
+            letter-spacing: 1px;
+            line-height: 10px;
+            top: 1px;
+            left: 6px;
+        }
+
+        & .short-cut-envato {
+            position: absolute;
+            width: 35px;
+            height: 35px;
+            border-radius: 100%;
+            background-color: var(--color-title);
+            display: flex;
+            bottom: 1px;
+            left: -20px;
+            cursor: pointer;
+
+           & .envato-img {
+               width: 15px;
+               margin: auto;
+           } 
+        }
+    }
+}

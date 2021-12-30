@@ -1,0 +1,15 @@
+{
+  "name": "du_an_cuoi_khoa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-watch": "node-sass -w ./resources/css/ -o ./assets/css/"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

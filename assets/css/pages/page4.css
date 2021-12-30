@@ -1,0 +1,164 @@
+.content-coast {
+  background-image: url(/assets/img/page4/parallax-4-1.jpg); }
+
+.coast-body {
+  margin-top: 50px; }
+
+.coast-item__img {
+  position: relative; }
+  .coast-item__img img {
+    width: 100%;
+    display: block; }
+
+.coast-item__sale {
+  position: absolute;
+  top: 4%;
+  left: 4%;
+  color: #fff;
+  background-color: #1bbc9b;
+  padding: 5px 8px;
+  font-size: 13px;
+  letter-spacing: 1px; }
+
+.coast-item__heading {
+  font-size: 30px;
+  font-weight: normal;
+  color: var(--color-title); }
+
+.coast-item__rating {
+  margin-bottom: 16px; }
+
+.coast-item__star {
+  font-size: 9px;
+  color: var(--text-color); }
+
+.coast-item__price {
+  font-size: 30px;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+  display: inline-block; }
+  .coast-item__price .price-dola {
+    font-size: 20px;
+    vertical-align: top;
+    display: inline-block; }
+  .coast-item__price .price-opacity {
+    opacity: 0.4;
+    display: inline-block;
+    margin-right: 12px; }
+
+.coast-item__desc {
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+  margin-bottom: 20px;
+  line-height: 27px; }
+
+.coast-item__input {
+  display: inline-block;
+  width: 100px;
+  margin-right: 16px; }
+  .coast-item__input input {
+    width: 100px;
+    height: 34px;
+    text-align: center;
+    color: var(--text-color);
+    background-color: #f9f9f9;
+    border: 1px solid #f1f1f1;
+    border-radius: 30px;
+    outline: none;
+    padding: 0 16px;
+    font-size: 15px; }
+
+.coast-item__btn {
+  background-color: #1bbc9b;
+  padding: 7px 14px;
+  border: none;
+  color: #fff;
+  font-weight: 800; }
+
+.coast-item__more {
+  margin-top: 36px; }
+
+.coast-item__another {
+  font-size: 14px;
+  color: var(--color-title);
+  letter-spacing: 1px;
+  margin-bottom: 12px; }
+  .coast-item__another .category-item {
+    display: inline-block;
+    padding: 4px 8px;
+    font-size: 13px;
+    border: 1px solid #f1f1f1;
+    color: var(--text-color); }
+
+.coast-item-wrapper {
+  text-align: center;
+  margin-top: 8px; }
+
+.coast-sub {
+  display: inline-block;
+  width: 19%;
+  padding-right: 4px; }
+  .coast-sub__link {
+    text-decoration: none; }
+  .coast-sub__img {
+    display: block;
+    width: 100%; }
+
+.tab-wrapper {
+  width: 100%; }
+
+.tab-list {
+  list-style: none;
+  margin: 40px 0;
+  display: block;
+  border-bottom: 1px solid #f1f1f1;
+  overflow: visible; }
+
+.tab-item {
+  display: inline-block;
+  padding: 0 14px; }
+  .tab-item__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 17px;
+    color: var(--color-title);
+    padding: 20px 10px; }
+
+.active {
+  box-shadow: 0px 1px 0px #1bbc9b; }
+
+.tab-desc {
+  margin-bottom: 62px;
+  letter-spacing: 1px; }
+  .tab-desc__heading {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--color-title);
+    font-weight: normal;
+    margin-bottom: 20px; }
+  .tab-desc__text {
+    font-size: 14px;
+    line-height: 27px;
+    color: var(--text-color); }
+
+.related-products {
+  margin-bottom: 100px; }
+  .related-products__heading {
+    position: relative;
+    margin-left: 16px;
+    margin-bottom: 45px;
+    font-size: 25px;
+    font-weight: normal;
+    color: var(--color-title);
+    letter-spacing: 1px; }
+  .related-products__heading::after {
+    width: 30px;
+    height: 2px;
+    background-color: #f1f1f1;
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20px; }

@@ -1,0 +1,737 @@
+/*======= Tablet======= */
+@media (min-width: 740px) and (max-width: 1200px) {
+    .hide-on-tb-mb {
+        display: none;
+    }
+
+    .header-tablet {
+        display: block;
+        max-height: 125px;
+        background-color: var(--color-title);
+        text-align: center;
+        padding: 24px 0;
+
+        &__logo {
+            width: 160px;
+        }
+
+        &__menu {
+            padding-top: 8px;
+            & .menu-icon {
+               font-size: 32px;
+               color: #fff;
+               opacity: 0.4;
+            }
+        }
+    }
+
+    .travel-desc {
+        padding-top: 60%;
+    }
+
+// travel-packages
+
+    .padding-tl-mb {
+        padding: 0 8px 12px 8px;
+    }
+
+
+    .box-news {
+        margin-bottom: 30px;
+    }
+
+    .box-news-order {
+        display: flex;
+    }
+
+    .box-news-order-2 {
+        order: 2;
+    }
+
+    .box-news-order-3 {
+        order: 2;
+    }
+
+    .box-news-mt {
+        margin-top: 0;
+    }
+
+    .travel-desc-menu {
+        display: none;
+    }
+
+    // travel-best
+    .travel-best {
+        padding-top: 0;
+        padding-bottom: 90px;
+        background-position: center;
+        background-size: cover;
+
+        .travel-inner {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding: 90px 24px 15px;
+
+            &__body {
+                margin: auto;
+                min-height: 0;
+
+            }
+        }
+    
+        .travel-column {
+            position: relative;
+        }
+
+        .travel-column-item {
+            margin: 0 -30px 24px -30px;
+        }
+
+        .travel-column-desc {
+            background-color: #fff;
+            margin-left: -30px;
+            margin-right: -30px;
+        }
+    }
+
+
+    .travel-appraise {
+        padding-top: 0;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .appraise-position {
+        padding-top: 32px;
+        margin-left: 50px;
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        overflow: hidden;
+    }
+
+    .appraise-inner {
+        margin-bottom: 32px;
+    }
+
+    // footer 
+    .footer {
+        background-position: center;
+        background-size: cover;
+        padding-top: 90px;
+        padding-bottom: 90px;
+
+        &__box {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0, 0);
+            margin: auto;
+        }
+
+        &__copyright {
+            position: relative;
+            left: 0;
+            transform: translateX(0);
+            margin: auto;
+
+            .footer-copyright-text {
+                text-align: center;
+            }
+        }
+    }
+
+    .box-copyright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &__text:first-child {
+            padding-bottom: 32px;
+        }
+    }
+}
+
+// ================  Mobile ================
+
+@media (max-width: 739px) {
+    .hide-on-tb-mb {
+        display: none;
+    }
+
+    .padding-tl-mb {
+        padding: 0 8px 12px 8px;
+    }
+
+    .header-tablet {
+        display: block;
+        max-height: 125px;
+        background-color: var(--color-title);
+        text-align: center;
+        padding: 24px 0;
+
+        &__logo {
+            width: 160px;
+        }
+
+        &__menu {
+            padding-top: 8px;
+            & .menu-icon {
+               font-size: 32px;
+               color: #fff;
+               opacity: 0.4;
+            }
+        }
+    }
+
+    .travel-search {
+        padding: 0 40px 42px;
+    }
+
+    .travel-desc {
+        padding-top: 120%;
+        background-position: center;
+
+        &__title {
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 32px;
+            line-height: 0.9;
+
+            &-1 {
+                font-weight: 300;
+            }
+
+            &-2 {
+
+                .line {
+                    height: 4px;
+                    bottom: 3px;
+                    left: -2px;
+                }
+            }
+        }
+    }
+
+    .travel-best {
+        padding-top: 0;
+        padding-bottom: 90px;
+        background-position: center;
+        background-size: cover;
+
+        .travel-inner {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            padding: 90px 12px 15px;
+
+            &__body {
+                margin: auto;
+                min-height: 0;
+
+            }
+        }
+    
+        .travel-column {
+            position: relative;
+        }
+
+        .travel-column-item {
+            margin: 0 -15px 24px -15px;
+        }
+
+        .travel-column-desc {
+            background-color: #fff;
+            margin-left: -15px;
+            margin-right: -15px;
+        }
+    }
+    
+    .box-news {
+        flex-direction: column;
+
+        &__img {
+            padding-top: 82%;
+        }
+    }
+
+    .box-news-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .box-news-order {
+        display: flex;
+    }
+
+    .box-news-order-2 {
+        order: 2;
+    }
+
+    .box-news-order-3 {
+        order: 2;
+    }
+
+    .box-news-2 {
+        margin-top: 30px;
+    }
+
+    .travel-appraise {
+        padding-top: 0;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .appraise-position {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+        padding-top: 32px;
+        margin-left: 50px;
+        overflow: hidden;
+    }
+
+    .appraise-inner {
+        margin-bottom: 32px;
+    }
+
+    // footer
+
+    .footer {
+        background-position: center;
+        background-size: cover;
+        padding-top: 0;
+        padding: 90px 0px;
+
+        &__box {
+            position: relative;
+            top: 0;
+            left: 0;
+            transform: translate(0, 0);
+            margin: auto;
+            font-size: 14px;
+        }
+
+        &__copyright {
+            position: relative;
+            left: 0;
+            transform: translateX(0);
+            margin: auto;
+            font-size: 14px;
+
+            .footer-copyright-text {
+                text-align: center;
+            }
+        }
+    }
+
+    .footer-copyright-text {
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+//==================================== WOONDEN-SHIP=======================================
+
+
+
+
+
+
+
+@media (min-width: 740px) and (max-width: 1200px) {
+    .content-travel {
+        padding-top: 31%;
+    }
+
+    .wooden-ship {
+        padding: 0 50px;
+    }
+
+    .content-service {
+        margin: 0;
+    }
+
+    .service-item {
+        margin-top: 24px;
+    }
+
+    .service-price {
+        margin: 24px 32px 0;
+    }
+
+    .content-body {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .shift-list {
+
+        .shift-item {
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    .tour-list {
+        flex-direction: column;
+
+        &__desc {
+            margin-top: 8px;
+
+            .tour-list-img {
+                width: 12px !important;
+            }
+        }
+    }
+
+    .content-body-right-img {
+        width: 300px;
+        height: 188px;
+    }
+
+    .content-best-packages {
+        .best-packages {
+    
+            &__img {
+                width: 300px;
+                height: 188px;
+            }
+
+            &__text {
+                .place-link {
+                    
+                    &__title {
+                        font-size: 24px;
+                        font-weight: normal;
+                    }
+                    &__img {
+                        width: 18px;
+                    }
+        
+                    p {
+                        font-size: 20px;
+                        display: inline-block;
+                        letter-spacing: 2px;
+                        color: var(--text-color);
+                    }
+                }
+
+                .best-packages-btn {
+                    margin-top: 24px;
+                    padding: 8px 28px;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+
+    .row-margin-16 {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+// ==================== Mobile ==========================
+@media (max-width: 739px) {
+    .content-travel {
+        padding-top: 77%;
+    }
+
+    .wooden-ship {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+
+        &__place {
+            justify-content: center;
+            padding-left: 32px;
+        }
+    }
+
+    .content-service {
+        margin-top: 12px;
+    }
+
+    .service-item {
+        margin-top: 16px;
+    }
+
+    .service-price {
+        margin: 16px -24px 0 0;
+        padding: 16px;
+    }
+
+    .content-body {
+        margin-left: 24px;
+        margin-right: 18px;
+    }
+
+    .shift-list {
+
+        .shift-item {
+            display: block;
+            margin-bottom: 20px;
+        }
+    }
+
+    .tour-list {
+        flex-direction: column;
+
+        &__desc {
+            margin-top: 8px;
+
+            .tour-list-img {
+                width: 12px !important;
+            }
+        }
+    }
+
+    .body-gallery {
+        flex-direction: column;
+
+        &__one {
+            margin-right: 0;
+
+            .gallery-one {
+                display: block;
+            }
+
+            .gallery-two {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .schedule-item__img {
+        width: 50px !important;
+    }
+
+    .schedule-item__desc {
+        font-size: 14px !important;
+    }
+
+    .content-input-50 {
+        display: block;
+    }
+
+    .input-name {
+        width: 100%;
+    }
+
+    .content-body-right-img {
+        width: 100%;
+    }
+
+    .row-margin-16 {
+        margin-right: 16px;
+        margin-left: 16px;
+    }
+}
+
+
+// ===================================== SHOP =====================================================================
+
+
+@media (min-width: 740px) and (max-width: 1200px) {
+    .item {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    
+    .row-responsive {
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .item {
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+    
+    .row-responsive {
+        margin-right: 32px;
+        margin-left: 32px;
+    }
+}
+
+
+
+// ======================================================= HAWAIII-COAST ============================================================
+
+// @media (min-width: 769px) and (max-width: 1200px) {
+//     .related-products__heading {
+//         margin-left: 50px;
+//     }
+// }
+
+// @media (max-width: 768px) {
+//     .m-ipad {
+//         flex: 0 0 100%;
+//         max-width: 100%;
+//     }
+
+//     .m-ipad-2 {
+//         flex: 0 0 50%;
+//         max-width: 50%;
+//     }
+
+//     .related-products__heading {
+//         margin-left: 50px;
+//     }
+
+//     .coast-sub {
+//         width: 17%;
+//     }
+// }
+
+
+@media (min-width: 740px) and (max-width: 1200px) {
+    .coast-sub {
+        width: 18%;
+    }
+}
+
+@media (max-width: 739px) {
+    .coast-sub {
+        width: 18%;
+    }
+}
+
+// ==================================== Cart =====================================================
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+    .table-cart-wrapper {
+        margin-right: 42px;
+        margin-left: 42px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hide-th {
+        display: none !important;
+    }
+
+    table tr > *{
+        display: block;
+    }
+    
+
+    .table-shop thead tr th {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+    }
+    
+    .table-shop tbody .shop-item {
+        display: none;
+    }
+
+    .th-responsive,
+    .total__span-responsive {
+        color: var(--text-color) !important;
+        font-weight: 600 !important;
+        letter-spacing: 1px;
+    }
+
+    .span-responsive::after {
+        content: ":";
+    }
+
+    .remove-responsive {
+        display: block;
+        text-decoration: none;
+    }
+
+    .product-responsive {
+        display: block;
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    .input-responsive {
+        display: block;
+        width: 100px;
+        height: 34px;
+        text-align: center;
+        color: var(--text-color);
+        background-color: #f9f9f9;
+        border: 1px solid #f1f1f1;
+        border-radius: 30px;
+        outline: none;
+        padding: 0 16px;
+        font-size: 15px;
+    }
+
+    .remove-responsive {
+        padding: 0 20px;
+    }
+
+    .coupon-responsive {
+        display: block;
+
+        &__input {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &__text {
+            width: 50%;
+        }
+
+        &__submit {
+            width: 50%;
+        }
+
+        &__btn {
+            .button-responsive {
+                width: 100%;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    .total {
+        width: 100%;
+    }
+
+    .total tr > th{
+        display: block;
+    }
+
+    .total tbody tr th {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid #f1f1f1;
+        background-color: #fff;
+    }
+
+    .total__number-tl-mb {
+        display: none;
+    }
+
+    .total__number-responsive {
+        display: block;
+    }
+
+    .cart-total__link-responsive {
+        width: 100%;
+    }
+
+    .total__text-responsive {
+        background-color: #f9f9f9 !important;
+    }
+}
